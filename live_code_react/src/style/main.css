@@ -12,6 +12,7 @@
     } */
     
 
+
 body {
     padding-top: 100px;
     position: relative;
@@ -19,6 +20,34 @@ body {
 }
 img{
     max-width: 100%;
+}
+
+.poster-category div img {
+    width:250px;
+    height: 330px;
+}
+
+.margin-body_category {
+    margin-left: 100px;
+}
+
+.margin-button div button{
+    margin-top: 20px;
+    margin-left:70px;
+    background-color: #3370d4;
+    color: white;
+    border: 1px solid #3370d4 ;
+    border-radius: 8px;
+    padding: 8px 8px;
+}
+
+.movies-box {
+    display: inline-block;
+    padding : 8px 8px;
+    border:1px solid #d1d4eb;
+    width:300px;
+    height:80px;
+    color : black;
 }
 
 /* header */
@@ -34,6 +63,16 @@ header {
     z-index: 2;
     border-bottom: 2px solid rgb(198, 200, 204);
 }
+
+.margin-list-category {
+    margin-top:20px;
+    margin-left: 100px;
+}
+
+.margin-list-category div h4 {
+    margin-left:65px;
+}
+
 
 .header-margin-list {
     margin-right: 8px;
